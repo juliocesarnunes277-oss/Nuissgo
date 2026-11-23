@@ -1,0 +1,12 @@
+name = "nuissgo"
+main = "worker.js"
+compatibility_date = "2026-11-23"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nuissgo-sites"
+database_id = "COLOQUE_AQUI_O_ID_DO_D1"
